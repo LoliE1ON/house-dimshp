@@ -1,0 +1,21 @@
+.select-body {
+    position: absolute;
+    left: 0;
+    top: 1.7rem;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #bcc3ce;
+}
+
+.select-body div {
+    padding: 5px;
+    color: #000000;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+.select-body div:hover {
+    background: #f5f5f5;
+    color: #a542ce;
+}

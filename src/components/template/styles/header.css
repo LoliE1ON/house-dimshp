@@ -1,0 +1,13 @@
+.navbar-container {
+    padding: 15px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.navbar-brand {
+    font-size: 1rem!important;
+    color: black!important;
+}
+.avatar-border {
+    border: 2px solid #807fe2;
+}

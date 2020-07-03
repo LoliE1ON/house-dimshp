@@ -1,0 +1,254 @@
+.table-fox-container {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.06);
+    min-width: 1200px;
+}
+
+.table-fox {
+    width: 100%;
+    display: flex;
+}
+.form-input.input-sm {
+    font-size: .6rem;
+    height: 1.2rem;
+    padding: .05rem .2rem;
+}
+.table-fox-col {
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    text-align: center;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden;
+    color: #262626;
+    font-size: 0.8em;
+    border-left: 0;
+    min-width: 50px;
+}
+.table-fox:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.table-fox-col-header {
+    background: #5755d9;
+    padding: 0px 0px 7px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4b4ab6;
+    border-left: 0;
+    color: black;
+    font-weight: 500;
+    font-size: 0.7em;
+    overflow: visible;
+}
+
+.col-header-title {
+    padding: 3px 0px 3px 0px;
+    color: #ffffff;
+}
+
+.w {
+    width: 100%;
+}
+
+.col-input {
+
+}
+
+.list {
+    position: absolute;
+    top: 1.4rem;
+    left: calc(50% - 120px);
+    width: 240px;
+    display: none;
+}
+
+
+.visible {
+    display: block!important;
+}
+
+.header-column {
+
+}
+.form-col-multi:hover {
+    background: #f8f8f8;
+}
+.col-badge {
+    border: 1px solid #f1f1f1;
+    padding: 2px 5px 2px 5px;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.menu-item-hover:hover {
+    background: #fafafa;
+}
+
+.badge-small[data-badge]::after {
+    font-size: .5rem;
+    height: .7rem;
+}
+
+.table-scroll {
+    overflow-x: scroll;
+    min-height: 700px;
+}
+
+.menu .menu-item {
+    padding: 0;
+}
+
+.menu-item-block {
+    padding: 5px;
+}
+.custom-filters {
+    margin: 10px 0;
+}
+
+.list .badge[data-badge]::after {
+    transform: unset;
+}
+
+.list .menu .menu-item {
+    display: flex;
+}
+
+.list .form-checkbox {
+    flex-basis: 100%;
+    display: flex;
+}
+
+.list .badge {
+    align-self: flex-end;
+    text-align: right;
+}
+
+.multi-select-item {
+    flex: 1 1 0;
+    text-align: left;
+}
+
+.filter-wrapper {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+}
+.filter-wrapper:focus-within {
+    border: 1px solid #7c9696;
+}
+.filter-wrapper input {
+    background: transparent;
+    border: none;
+    font: inherit;
+    font-size: 0.8em;
+    width: max-content;
+    min-width: 0;
+
+}
+.filter-wrapper input:focus {
+    outline: none!important;
+    border: none;
+    box-shadow: none;
+}
+
+.filter-wrapper .col-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-wrapper i {
+    color: #c0cbdc;
+    padding: 5px;
+    position: relative;
+}
+.filter-wrapper .activeTotalFilter {
+    color: #5755d9;
+}
+.filter-wrapper .activeTotalFilter::after {
+    content: attr(data-count);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #5755d9;
+    background-clip: padding-box;
+    border-radius: .5rem;
+    box-shadow: 0 0 0 0.1rem #fff;
+    line-height: 1;
+    min-width: .9rem;
+    padding: .1rem .2rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: .5rem;
+    transform: unset;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+.table-total-row {
+    font-size: 0.7em;
+    color: black;
+    padding: 3px 0;
+    background: #5755d9;
+    border: 1px solid #4b4ab6;
+    color: white;
+}
+
+.text-crop {
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden;
+}
+
+.col-title {
+    display: flex;
+}
+.col-title .text::selection {
+    background: transparent;
+}
+
+.col-title .sort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    font-size: 1.3em;
+}
+.col-title .text {
+    width: max-content;
+    min-width: 0;
+    flex: 1 1 0;
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden;
+}
+
+.table-fox:hover {
+    background-color: #efecec;
+    cursor: pointer;
+}
+
+.text-arrow-light {
+    color: #ffffff52!important;
+}
+
+.table-edit-row {
+    background: white;
+    padding: 0.5em;
+    border-top: 1px solid #e1e1e1;
+}
